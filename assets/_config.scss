@@ -1,0 +1,54 @@
+/*********************
+Variables
+*********************/
+$font:  'Montserrat', sans-serif;
+/*********************
+Mixins
+*********************/
+@mixin primary-header {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bolder;
+}
+@mixin secondary-header {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bolder;
+}
+@mixin tertaire-header {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bolder;
+}
+@mixin html {
+  margin: 0 2.5% 0 2.5%;
+}
+@mixin stripe {
+    border: 1.2px solid;
+    width: 20%;
+  background-color: black;
+}
+@mixin title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/*********************
+BREAKPOINTS
+*********************/
+
+@mixin breakpoint($point) {
+  @if $point == xl {
+    @media screen and (min-width: 1240px) { @content; }
+  }
+  @else if $point == l {
+    @media screen and (min-width: 1024px) { @content; }
+  }
+  @else if $point == md {
+    @media screen and (min-width: 768px) { @content; }
+  }
+  @else if $point == sm {
+    @media screen and (min-width: 550px)  { @content; }
+  }
+}
+

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+  font-family: $font;
+}
+html {
+  //@include html
+}
+h1 {
+  @include primary-header
+}
+h2 {
+  @include secondary-header
+}
+h3 {
+  @include tertaire-header
+}
+a {
+  color: #ffffff;
+}
+a:hover {
+  color: #657cae;
+  text-decoration: none;
+}

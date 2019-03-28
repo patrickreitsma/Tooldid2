@@ -4,7 +4,7 @@
       <h3 class="copy">Copyright By Patrick Reitsma</h3>
       <p class="contact">Contact me by follow me on one of these websites.</p>
       <div class="buttons">
-        <button><a href="/pic/Verantwoordingv1.pdf" download>Verantwoording </a></button>
+        <button><a href="pic/Verantwoordingv1.pdf" download>Verantwoording </a></button>
         <button><a href="https://www.facebook.com/patrickreitsma11">Facebook </a></button>
         <button><a href="https://open.spotify.com/user/patrick_reitsma?si=Gl8wjSScQpGkyP0VMZDIDQ">Spotify</a></button>
         <button><a href="https://www.instagram.com/patrick_reitsma">Instagram</a></button>

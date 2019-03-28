@@ -22,17 +22,17 @@ export default {
     return {
       cards: [
         {
-          img: '/pic/twd.jpg',
+          img: 'pic/twd.jpg',
           title: 'The Walking Dead'
         }, {
-          img: '/pic/puni.jpg',
+          img: 'pic/puni.jpg',
           title: 'The Punisher'
 
         }, {
-          img: '/pic/orange1.jpg',
+          img: 'pic/orange1.jpg',
           title: 'Orange Is The New Black'
         }, {
-          img: '/pic/prison1.jpg',
+          img: 'pic/prison1.jpg',
           title: 'Prison Break'
         }
       ]

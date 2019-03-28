@@ -6,10 +6,10 @@
         <b-collapse is-nav id="nav_text_collapse">
           <b-navbar-nav>
             <b-nav-text><nuxt-link to="/">Home</nuxt-link></b-nav-text>
-            <b-nav-text><nuxt-link to="Games">Games</nuxt-link></b-nav-text>
-            <b-nav-text><nuxt-link to="Series">Series</nuxt-link></b-nav-text>
-            <b-nav-text><nuxt-link to="Movies">Movies</nuxt-link></b-nav-text>
-            <b-nav-text><nuxt-link to="Contact">Contact</nuxt-link></b-nav-text>
+            <b-nav-text><nuxt-link to="/Games">Games</nuxt-link></b-nav-text>
+            <b-nav-text><nuxt-link to="/Series">Series</nuxt-link></b-nav-text>
+            <b-nav-text><nuxt-link to="/Movies">Movies</nuxt-link></b-nav-text>
+            <b-nav-text><nuxt-link to="/Contact">Contact</nuxt-link></b-nav-text>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
@@ -17,10 +17,10 @@
     <div class="desktop">
       <ul class="desktopul">
         <li><nuxt-link to="/">Home</nuxt-link></li>
-        <li><nuxt-link to="Games">Games</nuxt-link></li>
-        <li><nuxt-link to="Series">Series</nuxt-link></li>
-        <li><nuxt-link to="Movies">Movies</nuxt-link></li>
-        <li><nuxt-link to="Contact">Contact</nuxt-link></li>
+        <li><nuxt-link to="/Games">Games</nuxt-link></li>
+        <li><nuxt-link to="/Series">Series</nuxt-link></li>
+        <li><nuxt-link to="/Movies">Movies</nuxt-link></li>
+        <li><nuxt-link to="/Contact">Contact</nuxt-link></li>
       </ul>
     </div>
   </nav>

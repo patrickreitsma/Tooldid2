@@ -1,7 +1,7 @@
 <template>
   <div class="social">
     <h3>Verantwoording: </h3>
-    <a href="/pic/Verantwoordingv1.pdf" download> <p><u>Verantwoording.doc</u></p> </a>
+    <a href="pic/Verantwoordingv1.pdf" download> <p><u>Verantwoording.doc</u></p> </a>
   </div>
 </template>
 

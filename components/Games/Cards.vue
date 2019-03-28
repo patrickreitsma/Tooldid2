@@ -12,7 +12,7 @@
         <h2 class="hcard">Call of duty</h2>
       </div>
       <div class="cardd ">
-        <img src="../../static/pic/lou.jpg"/>
+        <img src="../../static/pic/lou1.jpg"/>
         <h2 class="hcard">Last of Us</h2>
       </div>
     </div>
@@ -121,7 +121,7 @@
   }
   @include breakpoint(xl) {
     .cardd {
-      height: 500px;
+      height: 700px;
     }
   }
 </style>

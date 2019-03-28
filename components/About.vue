@@ -32,7 +32,7 @@
     top: 0;
     left: 0;
     content: " ";
-    background: url(/pic/newyork2.jpg);
+    background: url(../static/pic/newyork2.jpg);
     background-size: cover;
     background-position: bottom;
     width: 100%;
@@ -54,4 +54,4 @@
     padding: 3% 2% 0 2%;
   }
 }
-  </style>
+</style>

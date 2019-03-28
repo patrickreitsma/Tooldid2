@@ -24,7 +24,7 @@
       font-size: 1.2rem;
     }
     .email {
-      color: #ff4500;
+      color: #FF0000;
       display: flex;
       justify-content: center;
       font-size: 1.5rem;

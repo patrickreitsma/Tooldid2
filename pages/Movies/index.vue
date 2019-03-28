@@ -22,16 +22,16 @@ export default {
     return {
       cards: [
         {
-          img: '/pic/scar.jpg',
+          img: 'pic/scar.jpg',
           title: 'Scarface'
         }, {
-          img: '/pic/god.jpg',
+          img: 'pic/god.jpg',
           title: 'The Godfather'
         }, {
-          img: '/pic/save.png',
+          img: 'pic/save.png',
           title: 'Saving Private Ryan'
         }, {
-          img: '/pic/aven.jpg',
+          img: 'pic/aven.jpg',
           title: 'Avengers'
         }
       ]

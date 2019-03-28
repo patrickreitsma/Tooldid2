@@ -95,12 +95,12 @@ export default {
       width: 100%;
     }
     .cards {
-      height: 370px;
+      height: 400px;
     }
   }
   @include breakpoint(xl) {
     .cards {
-      height: 405px;
+      height: 600px;
     }
   }
 </style>
